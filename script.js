@@ -1,10 +1,10 @@
 const typedTextSpan = document.querySelector(".typed-text");
 const cursorSpan = document.querySelector(".cursor");
 
-const textArray = ["a Website?", "to make your business online?", "a Software Development?", "Machine learning/AI ?"];
+const textArray = ["Website Development", "Custom Software", "Re-design a Website", "Machine learning", "Artificial intelligence"];
 const typingDelay = 100;
 const erasingDelay = 100;
-const newTextDelay = 200; 
+const newTextDelay = 100; 
 let textArrayIndex = 0;
 let charIndex = 0;
 
@@ -32,10 +32,10 @@ function erase() {
     cursorSpan.classList.remove("typing");
     textArrayIndex++;
     if(textArrayIndex>=textArray.length) textArrayIndex=0;
-    setTimeout(type, typingDelay + 1100);
+    setTimeout(type, typingDelay + 100);
   }
 }
 
 document.addEventListener("DOMContentLoaded", function() {
-  if(textArray.length) setTimeout(type, newTextDelay + 250);
+  if(textArray.length) setTimeout(type,10);
 });

@@ -1,14 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200&family=Poppins:wght@600;700&display=swap');
 @font-face {
-    font-family: 'yahei';
-    src: url('./YaHeiBold.ttf');
+    font-family: 'Manrope', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
-
-
-h1,p{
-    font-family: 'yahei';
+body{
+    background-color: #f9f9f9;
+}
+.herofeature{
+    background-color: #574de1 ;
+    width: 210px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 1px;
+    margin-bottom: 20px;
+    border-radius: 3px;
+}
+h1, h2, h3{
+    font-family: 'Poppins', sans-serif;
+}
+p{
+    font-family: 'Manrope', sans-serif; 
+}
+p.herofeature{
+    font-family: 'Poppins', sans-serif; 
 }
 
 .hero{
