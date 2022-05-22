@@ -1085,6 +1085,9 @@ footer .bottom-links a:not(:last-child):after{
 }
 
 @media (max-width:900px){
+    .hero-section{
+        margin-top: -35px;
+    }
     .hero-section .hero-img{
         display: none;
     }
