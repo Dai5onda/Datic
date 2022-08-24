@@ -2,6 +2,7 @@
 
 html {
     scroll-behavior: smooth;
+    zoom: 90%;
   }
 .mobile-hero-img{
     display: none;
