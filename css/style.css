@@ -11,16 +11,17 @@ html {
     text-align: center;
 }
 
-.django{
+/* .django{
     max-width: 200px;
     align-items: center;
     text-align: center;
-    z-index: 5;
-    
+    z-index: 5;   
+} */
+.imgg{
+    background-color:#282b2f ;
 }
-
 .brands{
-    background-color: #fff
+    background-color: #fff;
 }
 
 .herofeature{
@@ -368,6 +369,7 @@ span.line{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-top: 50px;
  }
 
 .brands h2{
@@ -375,24 +377,32 @@ span.line{
 }
    
 .brands .img{
-    width:calc(20% - 40px);
-    padding: 20px;
+    width: calc(20% - 60px);
+    padding: 29px 19px;
     text-align: center;
-    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #282B2F;
+    border: 2px solid #282B2F;
+    margin: 0 9px 9px;
+    border-radius: 20px;
+    transition: 0.3s all;
+}
+
+.brands .img:hover{
+    background: #574DE1;
 }
      
-.brands .img img{
-    vertical-align: bottom;
-    max-height: 300%;
-    height: 100%;
-    object-fit: cover
-}
 .brands .img .svgweb{
     height: 125%;
 }
 
 .brands p{
     font-size: 12px;
+    margin-top: 10px;
+    color: #fff;
 }
    
 .brands{
@@ -981,6 +991,28 @@ footer .bottom-links a:not(:last-child):after{
     color: #574DE1;
 }
 
+
+.brands .img .img-wrap{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    background-color: #fff;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}  
+
+.brands .img .img-wrap img{
+    max-width: 100%;
+    max-height: 100%;
+    vertical-align: middle;
+}
+
+.imgg{
+    background-color:#2275e2 ;
+}
+
 @media (max-width:1300px){
 
     .services .left-col{
@@ -1138,7 +1170,7 @@ footer .bottom-links a:not(:last-child):after{
     }
 
     .brands .img{
-        width:calc(33.33% - 40px);
+        width:calc(33.33% - 60px);
     }
 
     .services .left-col {
@@ -1284,11 +1316,15 @@ footer .bottom-links a:not(:last-child):after{
         padding: 40px 0;
     }
 
+    .brands .container{
+        margin-top: 30px;
+    }
+
 }
 
 @media (max-width:600px){
     .brands .img {
-        width: calc(50% - 40px);
+        width: calc(50% - 60px);
     }
 
     footer .container .footer-col {
@@ -1321,6 +1357,10 @@ footer .bottom-links a:not(:last-child):after{
 
     .contact-box {
         padding-bottom: 40px;
+    }
+
+    .brands .img {
+        width: 100%;
     }
 }
 
