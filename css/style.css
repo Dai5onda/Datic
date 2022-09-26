@@ -1118,6 +1118,7 @@ footer .bottom-links a:not(:last-child):after{
 }
 
 @media (max-width:900px){
+    
     .hero-section{
         margin-top: -35px;
     }
@@ -1215,6 +1216,9 @@ footer .bottom-links a:not(:last-child):after{
         width: calc(50% - 20px);
         margin: 0 10px 30px;
     }
+    .brands{
+        display:none;
+    }
 }
 
 
@@ -1227,10 +1231,9 @@ footer .bottom-links a:not(:last-child):after{
     footer .inner-footer {
         margin: 0 10px 50px;
     }
-    brands{
+    .brands{
         display:none;
     }
-    
     
 }
 
