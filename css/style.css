@@ -1227,6 +1227,10 @@ footer .bottom-links a:not(:last-child):after{
     footer .inner-footer {
         margin: 0 10px 50px;
     }
+    brands{
+        display:none;
+    }
+    
     
 }
 
